@@ -1,0 +1,1 @@
+from .contract_address_default import *

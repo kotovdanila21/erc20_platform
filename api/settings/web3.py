@@ -1,0 +1,5 @@
+from api.settings import env
+
+ERC20_PROVIDER_URL = env.str("ERC20_PROVIDER_URL")
+ETHERSCAN_API_KEY = env.str("ETHERSCAN_API_KEY")
+ETHERSCAN_API_URL = env.str("ETHERSCAN_API_URL")
